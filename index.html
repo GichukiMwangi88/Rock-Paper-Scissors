@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>Rock Paper Scissors Game</title>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Rock Paper Scissors Game</h1>
+        </div>
+        <div class="intro">
+            <h3 id="info">Play 5 rounds for a chance to win against computer</h3>
+        </div>
+        <div class="buttons">
+            <input id="rock" class="btn" type="image"
+                src="https://raw.githubusercontent.com/nsebhastian/rock-paper-scissors-game/2736ffa70b4410da0fd0edcd6a99b30f93b0e22b/assets/Rock.svg">
+
+            <input id="paper" class="btn" type="image"
+                src="https://raw.githubusercontent.com/nsebhastian/rock-paper-scissors-game/2736ffa70b4410da0fd0edcd6a99b30f93b0e22b/assets/Paper.svg">
+            <input id="scissors" class="btn" type="image"
+                src="https://raw.githubusercontent.com/nsebhastian/rock-paper-scissors-game/2736ffa70b4410da0fd0edcd6a99b30f93b0e22b/assets/Scissors.svg">
+        </div>
+
+        <div class="choices">
+            <ul>Player Choice: <span id="pChoice"></span></ul>
+            <ul>Computer Choice: <span id="cChoice"></span></ul>
+        </div>
+
+        <div class="score">
+            <ul>Your Score: <span id="pScore">0</span> </ul>
+            <ul>Computer Score: <span id="cScore">0</span> </ul>
+            <ul>Draws: <span id="draws">0</span> </ul>
+            <ul>Rounds: <span id="rounds">0</span></ul>
+        </div>
+
+        <div class="results">
+            <p>Game Winner: <span id="winner"></span></p>
+        </div>
+
+
+    </div>
+
+
+    <script src="rps.js"></script>
+</body>
+
+
+</html>
